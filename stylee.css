@@ -1,0 +1,45 @@
+/*body{
+	background-color: black;
+	font-size: 200%;
+	color: red;
+}*/
+body{
+	margin:235px 0;
+	background-color: black;
+}
+img
+{
+	position: relative;
+	width:450px;
+	height: 200px;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end;
+}
+.col{
+	color: red;
+	font-size: 150%;
+}
+.btn-primary{
+	position: center;
+}
+.container .btn {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50px,-50px);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: pink;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius:100px;
+}
+.btn:hover{
+	background-color: black;
+}
